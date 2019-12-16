@@ -1,0 +1,214 @@
+{"level":"info","message":"Post was created"}
+{"level":"info","message":"Post was created"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Post was created"}
+undefined
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-18T06:37:20.407Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-18T06:37:42.395Z' }
+{"level":"info","message":"Post was created"}
+
+undefined
+undefined
+undefined
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-18T06:41:28.819Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-18T06:41:36.585Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-22T10:01:20.617Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-23T02:56:39.533Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-23T02:57:55.204Z' }
+{ level: 'info',
+  message: 'Message was created',
+  timestamp: '2019-10-25T03:12:43.448Z' }
+{ level: 'info',
+  message: 'Message was created',
+  timestamp: '2019-10-25T03:28:25.256Z' }
+{ level: 'info',
+  message: 'Message was created',
+  timestamp: '2019-10-25T03:28:42.025Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T09:38:18.614Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T09:58:00.866Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:23:08.636Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:26:36.413Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:28:35.097Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:35:22.544Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:35:49.164Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:36:25.167Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:36:44.502Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:37:32.775Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-25T10:37:52.145Z' }
+{ level: 'info',
+  message: 'Message was created',
+  timestamp: '2019-10-28T06:43:34.409Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-30T11:05:30.547Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-30T11:08:43.176Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-30T11:08:50.294Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-10-30T11:09:16.586Z' }
+{ level: 'info',
+  message: 'Message was created',
+  timestamp: '2019-11-01T08:02:02.951Z' }
+{ level: 'info',
+  message: 'Post34was updated',
+  timestamp: '2019-11-04T10:53:13.851Z' }
+{ level: 'info',
+  message: 'Post34was updated',
+  timestamp: '2019-11-04T10:54:17.067Z' }
+{ level: 'info',
+  message: 'Post34was updated',
+  timestamp: '2019-11-04T10:56:35.921Z' }
+{ level: 'info',
+  message: 'Post34was updated',
+  timestamp: '2019-11-04T10:57:24.598Z' }
+{ level: 'info',
+  message: 'Post34was updated',
+  timestamp: '2019-11-04T10:58:25.405Z' }
+{ level: 'info',
+  message: 'Post34deleted',
+  timestamp: '2019-11-05T10:15:40.336Z' }
+{ level: 'info',
+  message: 'Post33deleted',
+  timestamp: '2019-11-05T10:18:27.162Z' }
+{ level: 'info',
+  message: 'Post32deleted',
+  timestamp: '2019-11-05T10:21:03.688Z' }
+{ level: 'info',
+  message: 'Post31deleted',
+  timestamp: '2019-11-05T10:21:32.049Z' }
+{ level: 'info',
+  message: 'Post30deleted',
+  timestamp: '2019-11-05T10:22:08.261Z' }
+{ level: 'info',
+  message: 'Post29deleted',
+  timestamp: '2019-11-05T10:23:17.423Z' }
+{ level: 'info',
+  message: 'Post28deleted',
+  timestamp: '2019-11-05T10:26:11.242Z' }
+{ level: 'info',
+  message: 'Post27deleted',
+  timestamp: '2019-11-05T10:28:35.307Z' }
+{ level: 'info',
+  message: 'Post25deleted',
+  timestamp: '2019-11-05T10:31:19.160Z' }
+{ level: 'info',
+  message: 'Post24deleted',
+  timestamp: '2019-11-05T10:31:36.727Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T10:33:28.805Z' }
+{ level: 'info',
+  message: 'Post35deleted',
+  timestamp: '2019-11-05T10:33:34.423Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T10:36:12.609Z' }
+{ level: 'info',
+  message: 'Post36deleted',
+  timestamp: '2019-11-05T10:36:20.492Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T10:36:41.248Z' }
+{ level: 'info',
+  message: 'Post37deleted',
+  timestamp: '2019-11-05T10:37:02.862Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T10:44:47.500Z' }
+{ level: 'info',
+  message: 'Post38deleted',
+  timestamp: '2019-11-05T10:44:54.386Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T10:54:28.459Z' }
+{ level: 'info',
+  message: 'Post39deleted',
+  timestamp: '2019-11-05T10:54:32.410Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T11:09:35.367Z' }
+{ level: 'info',
+  message: 'Post40deleted',
+  timestamp: '2019-11-05T11:09:37.349Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T11:10:43.300Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T11:10:44.186Z' }
+{ level: 'info',
+  message: 'Post42deleted',
+  timestamp: '2019-11-05T11:10:51.837Z' }
+{ level: 'info',
+  message: 'Post41deleted',
+  timestamp: '2019-11-05T11:11:17.258Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T11:12:26.446Z' }
+{ level: 'info',
+  message: 'Post43deleted',
+  timestamp: '2019-11-05T11:12:30.569Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T11:14:33.397Z' }
+{ level: 'info',
+  message: 'Post44deleted',
+  timestamp: '2019-11-05T11:14:38.250Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T11:15:02.348Z' }
+{ level: 'info',
+  message: 'Post45deleted',
+  timestamp: '2019-11-05T11:15:04.629Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T11:19:51.333Z' }
+{ level: 'info',
+  message: 'Post46deleted',
+  timestamp: '2019-11-05T11:19:53.491Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-11-05T11:19:56.067Z' }
+{ level: 'info',
+  message: 'Post47deleted',
+  timestamp: '2019-11-05T11:19:58.386Z' }
