@@ -19,7 +19,9 @@ export default class search extends Component {
     return (
       <div className="search">
         <input type="text" onChange={this.changeText} value={text}/>
-        <UsersSearchQuery variable={{ text }}></UsersSearchQuery>
+        <UsersSearchQuery variable={{ text }}>
+          <SearchList />
+        </UsersSearchQuery>
       </div>
     )
   }

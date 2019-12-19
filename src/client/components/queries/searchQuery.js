@@ -35,13 +35,12 @@ export default class UsersSearchQuery extends Component {
         queryVariables.text = variables.text
       }
     }
-
     return queryVariables
   }
 
   render () {
     const { children } = this.props
-    const variables = this.getVariables
+    const variables = this.getVariables()
     const skip = (variables.text.length < 3)
     return (
       <Query query={GET_USERS} variables={variables} skip={skip}>
