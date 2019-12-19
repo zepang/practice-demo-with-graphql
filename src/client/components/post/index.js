@@ -1,10 +1,23 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 import PostContent from './content'
 import PostHeader from './header'
 import PostForm from './form'
 import UpdatePostMutation from '../mutations/updatePost'
 
 export default class Post extends Component {
+  static propTypes = {
+    /** Object containing the complete post */
+    post: PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      text: PropTypes.string.isRequired,
+      user: PropTypes.shape({
+        avatar: PropTypes.string.isRequired,
+        username: PropTypes.string.isRequired
+      }).isRequired
+    }).isRequired
+  }
+
   state = {
     editing: false
   }

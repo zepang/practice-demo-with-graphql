@@ -1,7 +1,7 @@
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
+// const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 
 module.exports = {
   mode: 'development',
@@ -40,12 +40,12 @@ module.exports = {
     port: 3000
   },
   plugins: [
-    new FriendlyErrorsWebpackPlugin({
-      clearConsole: true,
-      compilationSuccessInfo: {
-        messages: ['You application is running here http://localhost:3000']
-      }
-    }),
+    // new FriendlyErrorsWebpackPlugin({
+    //   clearConsole: true,
+    //   compilationSuccessInfo: {
+    //     messages: ['You application is running here http://localhost:3000']
+    //   }
+    // }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public/index.html')
