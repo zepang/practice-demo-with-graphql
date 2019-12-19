@@ -215,3 +215,6 @@ undefined
 { level: 'info',
   message: 'Post was created',
   timestamp: '2019-12-16T10:02:39.098Z' }
+{ level: 'info',
+  message: 'Post was created',
+  timestamp: '2019-12-19T10:12:20.888Z' }

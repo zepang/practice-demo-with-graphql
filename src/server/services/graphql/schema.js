@@ -72,6 +72,10 @@ type Response {
   success: Boolean
 }
 
+type Auth {
+  token: String
+}
+
 type RootMutation {
   addPost(
     post: PostInput!
@@ -89,6 +93,10 @@ type RootMutation {
   deletePost(
     postId: Int!
   ):Response
+  login(
+    email: String!
+    password: String!
+  ):Auth
 }
 
 schema {

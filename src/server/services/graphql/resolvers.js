@@ -1,4 +1,8 @@
 import logger from '../../helpers/logger'
+import JWT from 'jsonwebtoken'
+import bcrypt from 'bcrypt'
+
+const { JWT_SECRET } = process.env
 
 export default function resolver ({ db }) {
   const { Post, User, Chat, Message, Sequelize } = db
@@ -118,6 +122,33 @@ export default function resolver ({ db }) {
       }
     },
     RootMutation: {
+      login (root, { email, password }, context) {
+        return User.findAll({
+          where: {
+            email
+          },
+          raw: true
+        }).then(async users => {
+          if (users.length === 1) {
+            const user = users[0]
+            const passwordValid = await bcrypt.compare(password, user.password)
+
+            if (!passwordValid) {
+              throw new Error('Password does not match')
+            }
+
+            const token = JWT.sign({ email, id: user.id }, JWT_SECRET, {
+              expiresIn: '1d'
+            })
+
+            console.log(token)
+
+            return { token }
+          } else {
+            throw new Error('User not found')
+          }
+        })
+      },
       addPost (root, args, context) {
         const { post } = args
         logger.log({ level: 'info', message: 'Post was created' })
